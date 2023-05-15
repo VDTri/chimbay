@@ -1,7 +1,11 @@
-num = int(input("input so nguyen: "))
+class Number:
 
-if num %2 == 0:
-    print("so chan")
-else:
-    print("so chan")
-    
+    num = 10
+
+    def __init__(self, num):
+
+        self.num = num+10
+
+        print(num)
+
+n = Number(10) 
